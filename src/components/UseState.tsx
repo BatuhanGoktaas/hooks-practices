@@ -21,7 +21,7 @@ const UseState = () => {
   return (
     <div className="container welcome">
       <div className="mt-5">
-        <div className="d-flex row align-items-center">
+        <div className=" d-flex row align-items-center">
           <div className="d-flex col-lg-6">
             <div className="pb-5">
               <div className="d-flex justify-content-center mb-2">

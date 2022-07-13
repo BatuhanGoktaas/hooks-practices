@@ -21,6 +21,15 @@ const Header = () => {
           <Link className="header-link nav-link" to="/use-effect">
             UseEffect
           </Link>
+          <Link className="header-link nav-link" to="/use-context">
+            UseContext
+          </Link>
+          <Link className="header-link nav-link" to="/use-ref">
+            UseRef
+          </Link>
+          <Link className="header-link nav-link" to="/use-callback">
+            UseCallback
+          </Link>
         </Navbar.Collapse>
       </div>
     </Navbar>
