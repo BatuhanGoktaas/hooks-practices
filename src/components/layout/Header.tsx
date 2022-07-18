@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 
-import { Nav, Navbar } from "react-bootstrap";
+import { Dropdown, Nav, Navbar } from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -33,6 +33,20 @@ const Header = () => {
           <Link className="header-link nav-link" to="/use-reducer">
             UseReducer
           </Link>
+
+          <Dropdown>
+            <Dropdown.Toggle variant="warning" id="dropdown-basic">
+              Custom Hooks
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu>
+              <Dropdown.Item>
+                <Link className="header-link nav-link text-dark" to={"/use-github"}>
+                  UseGithub
+                </Link>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
         </Navbar.Collapse>
       </div>
     </Navbar>

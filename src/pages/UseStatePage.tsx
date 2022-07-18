@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import UseState from "../components/UseState";
+import UseState from "../components/contents/UseState";
 
 const UseStatePage = () => {
   return (

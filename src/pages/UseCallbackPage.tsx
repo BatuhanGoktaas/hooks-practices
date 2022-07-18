@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import UseCallback from "../components/UseCallback";
+import UseCallback from "../components/contents/UseCallback";
 
 const UseCallbackPage = () => {
   return (

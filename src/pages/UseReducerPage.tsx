@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import UseReducer from "../components/UseReducer";
+import UseReducer from "../components/contents/UseReducer";
 
 const UseReducerPage = () => {
   return (

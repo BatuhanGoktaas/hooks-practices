@@ -6,6 +6,7 @@ import UseContextPage from "../pages/UseContextPage";
 import UseRefPage from "../pages/UseRefPage";
 import UseCallbackPage from "../pages/UseCallbackPage";
 import UseReducerPage from "../pages/UseReducerPage";
+import UseGithubPage from "../pages/customHookPages/UseGithubPage";
 
 const Router = () => {
   return (
@@ -16,6 +17,7 @@ const Router = () => {
       <Route path="/use-ref" element={<UseRefPage />} />
       <Route path="/use-callback" element={<UseCallbackPage />} />
       <Route path="/use-reducer" element={<UseReducerPage />} />
+      <Route path="/use-github" element={<UseGithubPage />} />
     </Routes>
   );
 };

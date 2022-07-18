@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import UseEffect from "../components/UseEffect";
+import UseEffect from "../components/contents/UseEffect";
 
 const UseEffectPage = () => {
   return (
