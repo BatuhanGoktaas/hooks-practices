@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 const UseEffect = () => {
   const [image, setImage] = useState<string>("");
 
+  /** Buradaki fonksiyon random olarak bir görsel çekmemizi sağlar. */
   const fetchAPI = async () => {
     let index = Math.floor(Math.random() * 11);
     const response = await axios.get(

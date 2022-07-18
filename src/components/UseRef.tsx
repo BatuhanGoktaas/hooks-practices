@@ -3,9 +3,13 @@ import { Button } from "react-bootstrap";
 
 const UseRef = () => {
   const videoRef = useRef<any>();
+
+  /** Buradaki fonksiyon erişilen video elementinin oynatılabilmesini sağlar. */
   const handlePlay = () => {
     videoRef.current.play();
   };
+
+  /** Buradaki fonksiyon erişilen video elementinin duraklatılabilmesini sağlar. */
   const handlePause = () => {
     videoRef.current.pause();
   };

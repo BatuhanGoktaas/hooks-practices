@@ -5,6 +5,7 @@ import UseEffectPage from "../pages/UseEffectPage";
 import UseContextPage from "../pages/UseContextPage";
 import UseRefPage from "../pages/UseRefPage";
 import UseCallbackPage from "../pages/UseCallbackPage";
+import UseReducerPage from "../pages/UseReducerPage";
 
 const Router = () => {
   return (
@@ -14,6 +15,7 @@ const Router = () => {
       <Route path="/use-context" element={<UseContextPage />} />
       <Route path="/use-ref" element={<UseRefPage />} />
       <Route path="/use-callback" element={<UseCallbackPage />} />
+      <Route path="/use-reducer" element={<UseReducerPage />} />
     </Routes>
   );
 };

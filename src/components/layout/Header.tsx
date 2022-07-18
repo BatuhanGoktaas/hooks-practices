@@ -30,6 +30,9 @@ const Header = () => {
           <Link className="header-link nav-link" to="/use-callback">
             UseCallback
           </Link>
+          <Link className="header-link nav-link" to="/use-reducer">
+            UseReducer
+          </Link>
         </Navbar.Collapse>
       </div>
     </Navbar>

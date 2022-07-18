@@ -13,6 +13,7 @@ const CounterButtons = memo(({ increment }: any) => {
 const UseCallback = () => {
   const [count, setCount] = useState<number>(0);
 
+  /** Buradaki fonksiyon count değerimizin artmasını sağlar. */
   const increment = useCallback(() => {
     setCount((c) => c + 1);
   }, []);
